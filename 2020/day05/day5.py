@@ -43,4 +43,3 @@ if __name__ == "__main__":
     print(max(r))
     r = part_two(r)
     print(r)
-

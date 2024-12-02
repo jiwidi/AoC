@@ -1,0 +1,19 @@
+repos:
+  - repo: https://github.com/myint/autoflake
+    rev: "v2.1.1"
+    hooks:
+      - id: autoflake
+        name: autoflake (python)
+        args: [--in-place, --remove-all-unused-imports, --recursive]
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        name: isort (python)
+        args: [--profile, black, --line-length, "88"]
+  - repo: https://github.com/psf/black
+    rev: 24.10.0
+    hooks:
+      - id: black
+        name: Black (python)
+        args: [--line-length, "88"]

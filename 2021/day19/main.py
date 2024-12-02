@@ -1,6 +1,6 @@
-import numpy as np
 import itertools
-from scipy.spatial.distance import cdist
+
+import numpy as np
 
 
 def read_input(path):

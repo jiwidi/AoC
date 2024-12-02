@@ -1,5 +1,6 @@
-import numpy as np
 from itertools import product
+
+import numpy as np
 
 
 def read_input(path):

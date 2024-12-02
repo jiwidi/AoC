@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-from os import path
 import math
-
 
 SUM, PRODUCT, MIN, MAX, LITERAL, GT, LT, EQ = range(8)
 

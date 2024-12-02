@@ -1,7 +1,4 @@
-import numpy as np
-from itertools import product
 from functools import lru_cache
-
 
 DICE_ROLLS = list(range(1, 101)) * 200
 

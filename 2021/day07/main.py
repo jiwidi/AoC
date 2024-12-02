@@ -1,6 +1,3 @@
-import numpy as np
-
-
 def read_input(path):
     numbers = open(path).read().replace("\n", "").split(",")
     return [int(x) for x in numbers]
